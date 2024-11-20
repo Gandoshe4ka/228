@@ -1,0 +1,21 @@
+ ul {
+    
+    list-style-type: none;
+}
+ li {
+    float: left;
+    border: 1px solid black ;
+    padding: 10px;
+    color: blue;
+    margin-right: 10px;
+}
+::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li:hover {
+   background-color: rgb(123, 125, 125);
+   color: rgb(145, 145, 145);
+}
